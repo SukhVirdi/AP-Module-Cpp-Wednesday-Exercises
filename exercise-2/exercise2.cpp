@@ -1,5 +1,6 @@
 //https://repl.it/join/gdrwrnmy-sukhvirdi7
-//After looking at online resources and the resource provided in the ADA document, I aimed to firstly retrieve user input then to enable the program to open/create a csv file then read the input string to then take and print it into the file in real time using fout.close(), finally the user then has a decision to restart or exit the loop. No major problems on this challenge however I learnt how to use the ofstream class.
+//After looking at online resources and the resource provided in the ADA document, I aimed to firstly retrieve user input then to enable the program to open/create a csv file then read the input string to then take and print it into the file in real time using fout.close(), finally the user then has a decision to restart or exit the loop. 
+//No major problems on this challenge however I learnt how to use the ofstream class.
 
 #include <iostream>
 #include <sys/stat.h>
