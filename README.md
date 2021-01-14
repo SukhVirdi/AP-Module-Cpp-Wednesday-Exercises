@@ -1,5 +1,5 @@
 # AP-Module-Cpp-Wednesday-Exercises
-This repository contains Wednesday exercises from the 'Advanced Programming Module'.
+This repository contains the Wednesday exercises from the 'Advanced Programming Module'.
 
 ## Exercise 1: File Exists
 I created a simple C++ program that allows the user to enter a filename. The program displays the file’s status, if the file exists it includes the file size and last modified date.
