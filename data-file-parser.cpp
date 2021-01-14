@@ -3,7 +3,6 @@
 //I decomposed the problem and worked on chunks of it initially by getting the file to read, then header to work and so on.
 //A part of the primer that was challenging was to finally format the console output correctly for the table content.
 
-
 #include <iostream>
 #include <fstream>
 #include <string>
