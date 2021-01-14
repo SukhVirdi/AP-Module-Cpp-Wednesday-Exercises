@@ -1,5 +1,5 @@
 # AP-Module-Cpp-Wednesday-Exercises
-This repo is part of my 'Advanced Programming' module. It contains all of the Wednesday exercises / primers.
+This repository contains Wednesday exercises from the 'Advanced Programming Module'.
 
 ## Exercise 1: File Exists
 I created a simple C++ program that allows the user to enter a filename. The program displays the file’s status, if the file exists it includes the file size and last modified date.
@@ -14,6 +14,7 @@ data.csv does not exist
 Filename to check: data.csv
 data.csv, 25 bytes, last modified: Tue Jan 12 14:41:00 2021
 ```
+https://repl.it/join/olljggvx-sukhvirdi7
 
 ## Exercise 2: File Writer
 I created a simple C++ program that allows the user to enter a name. The program appends (or create in the first instance) a plain text file called “list.csv” with the name entered. Once updated, the user is prompted to enter another name, if no additional names are expected the program finishes with a goodbye message.
@@ -31,6 +32,7 @@ Updating file...
 Add another (y/n)? N
 Goodbye
 ```
+https://repl.it/join/gdrwrnmy-sukhvirdi7
 
 ## Exercise 3: File Reader
 
@@ -47,3 +49,4 @@ Please enter a valid filename: list.csv
 
 Total number of lines read: 2
 ```
+https://repl.it/join/cxjbnbwz-sukhvirdi7
