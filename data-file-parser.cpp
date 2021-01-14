@@ -16,40 +16,31 @@ int main() {
 
   //read file or if its not there error message
   if (!myfile.is_open()) {
-    return 1;
+    return 0;
   }
 
   //for the column headers - spacing and aligning
   cout << setw(5) << left  << "Initial " << " ";
   cout << setw(9) << left << "Last " << " ";
   cout << setw(5) << left  << "Salary " << " " << endl;
-  cout << setfill('-') << setw(25) << left  << "-" << endl;
+  cout << setfill('-') << left << setw(7) << "-" << "  " << left << setw(9) << "-" <<  " " << setw(6) << "-" << endl;
 
   //content of the file within while loop 
   while (myfile) {
-
     string line;
     getline(myfile, line, (' '));
-
     string lastName;
     myfile >> lastName;
-
     int salary;
     myfile >> salary;
-
     myfile >> ws;
-
     if (!myfile) {
       break;
     }
 
-    //to remove the comma from last name
+    //to remove the comma from last name and replace with empty value
     lastName[lastName.length() -1 ] = ' ';
-
     //prints the table content to the user 
-    cout  << setfill(' ')  << line[0] << setw(8) << left <<  "." << setw(10) << left << lastName  << "£"  << salary << endl;
+    cout  << setfill(' ')  << line[0] << setw(8) << left <<  "." << setw(10) << left << lastName  << "£" << salary << endl;
   }
-
-  myfile.close();
-
 }
